@@ -5,15 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- import the js for animated name-letter balls -->
+    <script src="letterBalls.js"></script>
+    <!-- import the p5.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
     <title>Lydia Lam</title>
 </head>
 <body>
-    <div class="topnav">
-        <span>LYDIA LAM</span>
-        <a href="#contact">Contact</a>
-        <a href="#resume">Resume</a>
-        <a href="#projects">Projects</a>
-        <a class="active" href="#home">Home</a>
+    <nav class="navbar">
+        <a class="logo" href="#home">LYDIA LAM</a>
+        <ul class="nav-list">
+            <li class="nav-link"> <a href="#projects">Projects</a> </li>
+            <li class="nav-link"><a href="#experience">Experience</a> </li>
+            <li class="nav-link"><a href="#about">About</a> </li>
+            <li class="nav-link"><a href="#resume">Resume</a> </li>
+            <li class="nav-link"><a href="#contact">Contact</a> </li>
+        </ul>
+    </nav>
+    <div class="home-section">
+        <p class="home-background-text">
+            CREATIVE | DRIVEN | RESILIENT | CRITICAL THINKER | SOLVER 
+            CREATIVE | DRIVEN | RESILIENT | CRITICAL THINKER | SOLVER
+            CREATIVE | DRIVEN | RESILIENT | CRITICAL THINKER | SOLVER
+            CREATIVE | DRIVEN | RESILIENT | CRITICAL THINKER | SOLVER
+            CREATIVE | DRIVEN | RESILIENT | CRITICAL THINKER | SOLVER
+            <br>
+            <br>
+            <br>
+            CREATIVE | DRIVEN | RESILIENT | CRITICAL THINKER | SOLVER
+            CREATIVE | DRIVEN | RESILIENT | CRITICAL THINKER | SOLVER
+            CREATIVE | DRIVEN | RESILIENT | CRITICAL THINKER | SOLVER
+            CREATIVE | DRIVEN | RESILIENT | CRITICAL THINKER | SOLVER
+            CREATIVE | DRIVEN | RESILIENT | CRITICAL THINKER | SOLVER
+            CREATIVE | DRIVEN | RESILIENT | CRITICAL THINKER | SOLVER
+            CREATIVE | DRIVEN | RESILIENT | CRITICAL THINKER | SOLVER
+            CREATIVE | DRIVEN | RESILIENT | CRITICAL THINKER | SOLVER
+            CREATIVE | DRIVEN | RESILIENT | CRITICAL THINKER | SOLVER
+        </p>
+        <h2 class="home-greeting">Hello, I'm <span>Lydia</span></h2>
+        <div id="letter-balls-shadow"></div>
+        <div id="letter-balls"></div>
+    </div>
+    <div class="project-section">
+        <div class="project-info">
+            <h3 class="project-header">SOLAR GAZING</h3>
+            <ul class="project-details">
+                <li>JavaScript, p5 JavaScript library</li>
+                <li>Interactive 3D model of our solar system</li>
+                <li>Created during the Google Computer Science Summer Institute program</li>
+                <li><a href="https://solar-gazing.glitch.me/">Try it out here!</a></li>
+            </ul>
+        </div>
+        <div class="project-tile">
+            <img src="assets/Solar_Gazing_image.png" alt="Solar Gazing image">
+        </div>
+    </div>
+    <div class="project-section">
+        <div class="project-tile">
+            <img src="assets/LoZ_image.png" alt="Legend of Zelda image">
+        </div>
+        <div class="project-info">
+            <h3 class="project-header">2 PLAYER LEGEND OF ZELDA GAME</h3>
+            <ul class="project-details">
+                <li>Java</li>
+                <li>Rupee collection game using server and client sockets</li>
+                <li>Playable on 2 computers on the same network</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
