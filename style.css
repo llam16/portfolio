@@ -161,7 +161,6 @@
     font-weight: bold;
     letter-spacing: -0.015rem;
     color: #4F6367;
-    padding: 2;
     margin-bottom: 2rem;
 }
 
@@ -242,6 +241,7 @@
   }
 
   .experience-section {
+      padding-top: 2rem;
       padding-bottom: 5rem;
   }
 
