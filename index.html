@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <!-- import the js for animated name-letter balls -->
     <script src="letterBalls.js"></script>
     <!-- import the p5.js library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <title>Lydia Lam</title>
 </head>
 <body>
@@ -49,7 +51,7 @@
     </div>
     <div class="project-section">
         <div class="project-info">
-            <h3 class="project-header">SOLAR GAZING</h3>
+            <h3 class="section-header">SOLAR GAZING</h3>
             <ul class="project-details">
                 <li>JavaScript, p5 JavaScript library</li>
                 <li>Interactive 3D model of our solar system</li>
@@ -66,12 +68,44 @@
             <img src="assets/LoZ_image.png" alt="Legend of Zelda image">
         </div>
         <div class="project-info">
-            <h3 class="project-header">2 PLAYER LEGEND OF ZELDA GAME</h3>
+            <h3 class="section-header">2 PLAYER LEGEND OF ZELDA GAME</h3>
             <ul class="project-details">
                 <li>Java</li>
                 <li>Rupee collection game using server and client sockets</li>
                 <li>Playable on 2 computers on the same network</li>
             </ul>
+        </div>
+    </div>
+    <div class="experience-section">
+        <h3 class="section-header">EXPERIENCE</h3>
+        <div class="gallery js-flickity"data-flickity-options='{ "wrapAround": true }'>
+            <div class="gallery-cell">
+                <h4 class="experience-header">Google CSSI</h4>
+                <p class="experience-description">4 week intensive program learning JavaScript, specifically the p5 JavaScript Library</p>
+            </div>
+            <div class="gallery-cell">
+                <h4 class="experience-header">Rooster</h4>
+                <p class="experience-description">Data Analysis Consultant for the startup</p>
+            </div>
+            <div class="gallery-cell">
+                <h4 class="experience-header">Atlas Digital Consulting</h4>
+                <p class="experience-description">Analyst on a team creating a React front end app for a nonprofit</p>
+            </div>
+            <div class="gallery-cell">
+                <h4 class="experience-header">VOID Tech Consulting</h4>
+                <p class="experience-description">Designer and Developer, creating websites for clients</p>
+            </div>
+            <div class="gallery-cell">
+                <h4 class="experience-header">Girls Who Code Summer Immersion Program at Ford Greenfield Labs</h4>
+                <p class="experience-description">Learned skills in Python, HTML/CSS, Javasript, Scratch and Arduino C++ in a 7 week program</p>
+            </div>
+        </div>
+    </div>
+    <div class="about-section">
+        <h3 class="section-header">ABOUT ME</h3>
+        <div class="about-info">
+            <p class="about-description">An aspiring software engineer, I aim to use my programming skills to build tools for greater social change. Currently, I am studying Computer Science at the University of Michigan and am eager to learn as much as I can! In my free time, I enjoy drawing and painting, religiously watching the NBA, and playing mahjong with my family!</p>
+            <img src="assets/profile photo.jpg" alt="profile photo">
         </div>
     </div>
 </body>

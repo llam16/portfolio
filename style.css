@@ -38,12 +38,14 @@
     order: 0;
 
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.9rem;
+    font-size: 4rem;
     font-weight: bold;
     letter-spacing: 0.5rem;
     color: #F2F2F2;
 
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
     align-items: center;
 }
 
@@ -98,7 +100,6 @@
     letter-spacing: 0.3em;
 
     color: #999999;
-
 }
 
 .home-greeting {
@@ -154,7 +155,7 @@
 .project-info {
     width: 40%;
 }
-.project-header {
+.section-header {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2.9rem;
     font-weight: bold;
@@ -188,7 +189,8 @@
 .project-tile {
     width: 30rem;
     height: 30rem;
-    background-color: #E1DEDD;
+    /* background-color: #E1DEDD; */
+    background-color: #ededed;
     border-radius: 20px;
     margin-top: 5rem;
     margin-bottom: 3.7rem;
@@ -200,4 +202,87 @@
     width: 30rem;
     height: auto;
     padding: 2rem;
+}
+
+.gallery {
+    background: #EEE;
+    margin: 5rem 10rem;
+  }
+  
+  .gallery-cell {
+    width: 66%;
+    height: 20rem;
+    margin-right: 10px;
+    background: #f5f5f5;
+    color: #4F6367;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* counter-increment: gallery-cell; */
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  .flickity-button-icon {
+    fill: #4F6367;
+  }
+
+  .flickity-page-dots .dot.is-selected {
+    background: #4F6367;
+  }
+
+  .experience-section {
+      padding-bottom: 5rem;
+  }
+
+  .experience-section .section-header {
+      margin-left: 7.5rem;
+      margin-top: 5rem;
+  }
+
+  .experience-header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    padding: 1rem;
+  }
+
+  .experience-description {
+      width: 80%;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1rem;
+    align-self: center;
+  }
+
+  .about-section .section-header {
+    margin-left: 7.5rem;
+    margin-top: 5rem;
+}
+
+.about-info {
+    color: #4F6367;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2rem;
+    padding: 2rem 7.5rem 10rem 7.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-section img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+.about-description {
+    width: 60%;
 }
