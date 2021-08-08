@@ -93,7 +93,7 @@
     font-family: Share Tech Mono;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 140%;
     /* or 34px */
 
@@ -112,7 +112,7 @@
     font-family: Josefin Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 140%;
     /* identical to box height, or 90px */
 
@@ -126,8 +126,8 @@
 }
 
 #letter-balls {
-    height: 405px; 
-    width: 605px; 
+    height: 57.5vh; 
+    width: 42vw; 
     border: 0;
 
     position: absolute;
@@ -137,8 +137,8 @@
 
 #letter-balls-shadow {
     position: absolute;
-    height: 405px; 
-    width: 605px; 
+    height: 57.5vh; 
+    width: 42vw; 
     left: 780px;
     top: 200px;
 
